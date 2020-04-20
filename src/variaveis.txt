@@ -1,0 +1,21 @@
+
+Banco de dados criado em 26/12/2019 as 22:38h
+
+Nomes substituidos:
+    Banco de Dados:  sqlnode  =  mkvendas 
+    Tabela: Address  =  SalesOrder
+    tabela: Techs = Products
+
+
+
+Tabelas MKVendas:
+    Users
+    Clients
+    SalesOrder
+    Products
+    Sales_Order_Products
+
+
+Parei na aula em  1:26:00
+comecei a criar o relacionamento dos pedidos x produtos ( N-N )
+
