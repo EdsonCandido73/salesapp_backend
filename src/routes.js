@@ -1,6 +1,7 @@
 const express = require('express');
 
 const UserController = require('./controllers/UserController');
+const AuthenticateController = require('./controllers/AuthenticateController');
 const ClientControlller = require('./controllers/ClientControlller');
 const SalesOrderController = require('./controllers/SalesOrderController');
 const ProductController = require('./controllers/ProductController');
@@ -10,6 +11,8 @@ const routes = express.Router();
 
 routes.get('/users', UserController.index);
 routes.post('/users', UserController.store);
+
+routes.post('/authenticate', AuthenticateController.index);
 
 routes.get('/clients', ClientControlller.index);
 routes.post('/clients', ClientControlller.store);
