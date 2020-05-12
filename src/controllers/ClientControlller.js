@@ -2,7 +2,9 @@ const Client = require('../models/Client');
 
 module.exports = {
     async index(req, res) {
-        const clients = await Client.findAll();
+        const clients = await Client.findAll({
+            order: ['name']
+        });
 
         return res.json(clients);
     },
