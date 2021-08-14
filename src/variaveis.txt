@@ -19,3 +19,7 @@ Tabelas MKVendas:
 Parei na aula em  1:26:00
 comecei a criar o relacionamento dos pedidos x produtos ( N-N )
 
+    password: '300803curso',
+    database: 'mkvendas'
+
+    
